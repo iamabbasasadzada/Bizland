@@ -1,0 +1,27 @@
+﻿@model Features
+<p>Edit Feature</p>
+<form method="post" enctype="multipart/form-data" asp-action="Edit">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" placeholder="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="IconClass" class="form-label"></label>
+        <input asp-for="IconClass" class="form-control" placeholder="Class of Icon">
+        <span asp-validation-for="IconClass" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <div class="form-floating">
+            <textarea class="form-control" asp-for="Desc" placeholder="Desc"
+                      style="height: 100%"></textarea>
+            <label asp-for="Desc">Desc</label>
+        </div>
+
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+</form>

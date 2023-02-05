@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none !important; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.bluedot {
+  color: rgba(0, 132, 255, 0.801) !important; }
+
+.herosec {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.colorofh {
+  color: rgba(0, 132, 255, 0.801); }
+
+.fs-cus-6 {
+  font-size: 70px; }
+
+.colorofp {
+  color: #7a7a7a;
+  font-size: 30px; }
+
+.pt-6 {
+  padding-top: 12%; }
+
+.pb-6 {
+  padding-bottom: 12%; }
+
+.servicep {
+  color: #7a7a7a; }
+
+.icondivserv {
+  border: 1px solid #bdbdbd; }
+
+.iconsize {
+  font-size: 60px;
+  color: rgba(0, 132, 255, 0.801); }
+
+.hoficon {
+  transition: .5s ease; }
+
+.icondivserv:hover .hoficon {
+  color: rgba(0, 132, 255, 0.801);
+  transition: .5s ease; }
+
+.imgofteam {
+  width: 100%;
+  height: 100%; }
+
+.team {
+  background-color: #f1f1f1; }
+
+.mapofcon {
+  width: 100%;
+  height: 100%; }
+
+.join {
+  background-color: rgba(212, 235, 255, 0.801); }

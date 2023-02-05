@@ -1,0 +1,18 @@
+﻿@model Setting
+<p>Edit Settings </p>
+<form method="post" enctype="multipart/form-data" asp-action="Edit">
+    <div class="mb-3">
+        <label asp-for="Key" class="form-label"></label>
+        <input asp-for="Key" class="form-control" placeholder="Key">
+        <span asp-validation-for="Key" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Value" class="form-label"></label>
+        <input asp-for="Value" class="form-control" placeholder="Value">
+        <span asp-validation-for="Value" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+</form>

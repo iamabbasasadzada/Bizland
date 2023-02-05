@@ -1,0 +1,21 @@
+.servicep{
+    color: $main-color-p;
+}
+.icondivserv{
+    border: 1px solid rgb(189, 189, 189);
+    
+}
+.iconsize{
+    font-size: 60px;
+    color: $main-color;
+}
+.hoficon{
+    transition: .5s ease;
+}
+
+.icondivserv:hover{
+    .hoficon{
+        color: $main-color;
+        transition: .5s ease;
+    }
+}
